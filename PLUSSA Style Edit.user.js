@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         PLUSSA Style Edit
-// @icon    https://ae01.alicdn.com/kf/Hac1a58055c5047cdb91349e91aa208d5k.jpg
-// @match        https://plus.tuni.fi/*
-// @author       Lumiko
-// @version      1.0
-// @description    Userscript with GM_addStyle method.
+// @name           PLUSSA Style Edit
+// @icon           https://ae01.alicdn.com/kf/Hac1a58055c5047cdb91349e91aa208d5k.jpg
+// @match          https://plus.tuni.fi/*
+// @author         Lumiko
+// @version        1.0
+// @description    Modifies the PLUSSA environment into a neater style.
 // @grant GM_addStyle
 // ==/UserScript==
 
@@ -52,6 +52,8 @@ GM_addStyle(".highlight .si {background-color:#0f0f0f;}");
 GM_addStyle(".highlight .sa {background-color:#0f0f0f;}");
 GM_addStyle(".highlight .s1 {color:#0f0f0f;}");
 GM_addStyle(".highlight .ow {color:#ffffff;}");
+GM_addStyle(".highlight .na {color:#7676FF;}");
+GM_addStyle(".highlight .mi {color:#7676FF;}");
 
 
 //GM_addStyle(".content div.highlight pre span.loc-now-locked, .content pre.repl span.loc-now-locked, .content pre.repl span.loc-now-locked strong, .content pre.repl span.loc-now-locked em, .content pre.pseudocode span.loc-now-locked, .content pre.pseudocode span.loc-now-locked em, .content div.console pre span.loc-now-locked, .content div.console pre span.loc-now-locked em, .content div.animation div.loc-now-locked { background: #602424;}");
