@@ -54,6 +54,4 @@ GM_addStyle(".highlight .s1 {color:#0f0f0f;}");
 GM_addStyle(".highlight .ow {color:#ffffff;}");
 GM_addStyle(".highlight .na {color:#7676FF;}");
 GM_addStyle(".highlight .mi {color:#7676FF;}");
-
-
-//GM_addStyle(".content div.highlight pre span.loc-now-locked, .content pre.repl span.loc-now-locked, .content pre.repl span.loc-now-locked strong, .content pre.repl span.loc-now-locked em, .content pre.pseudocode span.loc-now-locked, .content pre.pseudocode span.loc-now-locked em, .content div.console pre span.loc-now-locked, .content div.console pre span.loc-now-locked em, .content div.animation div.loc-now-locked { background: #602424;}");
+GM_addStyle(".content table:not(.gsc-search-box):not(.gstl_50) th {background-color: #292B2B}");
